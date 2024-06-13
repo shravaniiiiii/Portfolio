@@ -1,0 +1,113 @@
+body {
+    background-color: #f2e6ff;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: #fff;
+    padding: 1em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.navbar h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    color: #333;
+    margin: 0;
+}
+.main-navbar {
+    background-color: #d6e9c6;
+    font-size: 1em;
+    padding: 1em 0;
+}
+.main-navbar ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+.main-navbar li {
+    display: inline;
+    margin: 0 1em;
+}
+.main-navbar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 700;
+}
+.resume-container {
+    padding: 2em;
+}
+.header {
+    text-align: center;
+    margin-bottom: 2em;
+}
+.header h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
+    color: #9900cc;
+}
+.header p {
+    font-size: 1em;
+}
+section h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
+    color: #9900cc;
+    border-bottom: 2px solid #9900cc;
+    padding-bottom: 0.5em;
+}
+section p, section ul, section li {
+    font-size: 1em;
+    margin: 0.5em 0;
+}
+section ul {
+    padding-left: 1.5em;
+}
+.skills-container, .education-item {
+    display: flex;
+    justify-content: space-around;
+}
+.skills-container > div, .education-item > div {
+    flex: 1;
+    margin: 0.5em;
+}
+.contact-form-container {
+    margin-top: 2em;
+}
+.contact-form-container h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
+    color: #9900cc;
+    border-bottom: 2px solid #9900cc;
+    padding-bottom: 0.5em;
+}
+.contact-form-container form {
+    display: flex;
+    flex-direction: column;
+}
+.form-group {
+    margin: 1em 0;
+}
+.form-group label {
+    font-weight: 700;
+}
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    background-color: #9900cc;
+    color: white;
+    padding: 0.75em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 700;
+}
+button:hover {
+    background-color: #cc00ff;
+}
